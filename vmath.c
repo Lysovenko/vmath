@@ -173,7 +173,7 @@ TriPlane (vector n1, double d1, vector n2, double d2, vector n3, double d3,
 	  int *err)
 {
   double det;
-  vector res;
+  vector res = {0,0,0};
   det =
     n1.x * (n2.y * n3.z - n3.y * n2.z) + n2.x * (n3.y * n1.z - n1.y * n3.z) +
     n3.x * (n1.y * n2.z - n2.y * n1.z);
