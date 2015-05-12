@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(vmath)
+set(vmath_VERSION_MAJOR 0)
+set(vmath_VERSION_MINOR 1)
 set(CMAKE_BUILD_TYPE Release)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 add_library(vmath SHARED addition.c figure.c matr.c vmath.c)

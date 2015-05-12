@@ -1,5 +1,3 @@
-*.o
-*.so
-test
 *~
+TAGS
 build
