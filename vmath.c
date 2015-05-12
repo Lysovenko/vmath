@@ -141,7 +141,6 @@ ThruTriang (vector a, vector b, vector c, vector d, vector e)
   j = DotProd (Vx, Vs) / DotProd (Vs, Vs);
   if (j < 0. || j > 1.)
     return 0;
-  //_________________________________________________
 
   s = VecIneq (c, a);
   s2 = DotProd (s, s);
@@ -152,7 +151,6 @@ ThruTriang (vector a, vector b, vector c, vector d, vector e)
   j = DotProd (Vx, Vs) / DotProd (Vs, Vs);
   if (j < 0. || j > 1.)
     return 0;
-  //_________________________________________________
 
   s = VecIneq (c, b);
   s2 = DotProd (s, s);
@@ -163,7 +161,6 @@ ThruTriang (vector a, vector b, vector c, vector d, vector e)
   j = DotProd (Vx, Vs) / DotProd (Vs, Vs);
   if (j < 0. || j > 1.)
     return 0;
-  //_________________________________________________
   return 1;
 }
 
